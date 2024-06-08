@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100%vh;
+    background-color: #232F3E;
+}
+
+:root {
+    --color: #161b1b;
+}
+
+.navbarbig {
+    background-color: var(--color);
+    height: 65px;
+    color: white;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    height: 43px;
+    width: 100px;
+    margin: 6px 0px 0px 15px;
+    padding-top: 5px;
+}
+
+.border {
+    border: 0.2px solid transparent;
+    border-radius: 3px;
+}
+
+.border:hover {
+    border: 0.2px solid rgb(70, 70, 70);
+    border-radius: 3px;
+}
+
+.navbarbig .addbig {
+    margin: 6px 8px 0px 15px;
+    padding: 2px 2px 2px 2px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+}
+
+.deliver {
+    color: #cccccc;
+    font-size: .78rem;
+    margin-left: 15px;
+}
+
+.india {
+    display: inline-block;
+    font-weight: 700;
+    font-size: .85rem;
+}
+
+
+/* box=searchbar */
+
+
+.searchbarbig {
+    display: flex;
+    flex-direction: row;
+    margin: 6px 0px 0px 0px;
+    width: 600px;
+    height: 45px;
+    border-radius: 3px;
+
+}
+
+.searchbarbig:hover {
+    box-shadow: 1px 1px 6px black, -1px 1px 6px black
+}
+
+.searchbarbig .searchbarele {
+    height: 43px;
+    background-color: black;
+    color: white;
+    margin-right: 1px;
+}
+
+.searchbarbig .droplist {
+    width: 60px;
+    border-radius: 3px 0px 0px 3px;
+
+
+}
+
+
+.searchbar {
+    width: 550px;
+}
+
+.magni {
+    background-size: cover;
+    padding-top: 15px;
+
+    width: 43px;
+    display: flex;
+    justify-content: center;
+}
+
+/* box=signin */
+
+.signinbig {
+    height: 43px;
+    margin: 5px 0px 0px 0px;
+}
+
+.hello {
+    margin-left: 7px;
+    font-size: .78rem;
+    color: #cccccc;
+}
+
+.account {
+    background-color: var(--color);
+    border: none;
+    color: white;
+    font-size: .85rem;
+    font-weight: 700;
+}
+
+.returnbig {
+    height: 43px;
+    margin: 5px 0px 0px 0px;
+}
+
+.returns {
+    font-size: .78rem;
+    color: #cccccc;
+    padding: 5px 5px 5px 5px;
+
+}
+
+.order {
+    font-size: .85rem;
+    font-weight: 700;
+    padding: 5px 5px 5px 5px;
+}
+
+.cartbig {
+    height: 43px;
+    margin: 5px 0px 0px 0px;
+    padding: 10px 0px 0px 4px;
+}
+
+.cart {
+    padding: 5px 5px 5px 5px;
+}
+
+.carttext {
+    padding: 5px 5px 5px 5px;
+    font-size: .85rem;
+    font-weight: 700;
+}
+
+/* navbarbig2 */
+
+.navbarbig2 {
+    height: 40px;
+    background-color: #232F3E;
+    padding-left: 10px;
+    display: flex;
+}
+
+.nav2-all {
+    color: #cccccc;
+    width: 65px;
+    height: 39px;
+    padding: 10px 5px 5px 18px;
+    font-size: .9rem;
+}
+
+.nav2-today {
+    color: #cccccc;
+    height: 39px;
+    padding: 10px 15px 5px 15px;
+    font-size: .9rem;
+}
+
+.nav2-customer {
+    height: 39px;
+    color: #cccccc;
+    width: 170;
+    padding: 10px 15px 5px 15px;
+    font-size: .9rem;
+}
+
+.nav2-registry {
+    height: 39px;
+    color: #cccccc;
+    width: 80px;
+    padding: 10px 15px 5px 15px;
+    font-size: .9rem;
+}
+
+.nav2-customer {
+    height: 39px;
+    color: #cccccc;
+    width: 150;
+    padding: 10px 15px 5px 15px;
+    font-size: .9rem;
+}
+
+.nav2-gift {
+    height: 39px;
+    color: #cccccc;
+    width: 150;
+    padding: 10px 15px 5px 15px;
+    font-size: .9rem;
+}
+
+.nav2-sell {
+    height: 39px;
+    color: #cccccc;
+    width: 150;
+    padding: 10px 15px 5px 15px;
+    font-size: .9rem;
+}
+
+/* hero-sec0 */
+
+.hero-sec {
+    background-image: url(herohero.jpg);
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.hero-msg {
+    margin: 0px 20px 0px 20px;
+    background-color: #161b1b;
+    height: 40px;
+    padding-top: 10px;
+    position: relative;
+    top: 200px;
+    color: #cccccc;
+}
+
+.hero-msg a {
+    color: rgb(0, 89, 255);
+}
+
+.hero-msg a:hover {
+    color: rgb(255, 153, 0);
+    text-decoration: underline;
+}
+
+.shop-sec {
+    position: relative;
+    top: -220px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 200px;
+    margin: 0px 20px 0px 20px;
+}
+
+.shop {
+    padding: 20px 14px 14px 20px;
+    color: #cccccc;
+    height: 420px;
+    width: 295px;
+    background-color: #161b1b;
+}
+
+.shop-sec-col1 {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div-image {
+    width: 120px;
+    height: 120px;
+    font-size: 12px;
+}
+
+.image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.shop-sec-col2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.seemorediv {
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.seemoretxt {
+    color: rgb(0, 89, 255);
+    text-decoration: none;
+}
+
+.seemoretxt:hover {
+    color: rgb(255, 153, 0);
+}
+
+.shop-sec4-col1-img {
+    height: 300px;
+    width: 255px;
+
+}
+
+.imgcpu {
+    height: 300px;
+    width: 255px;
+    object-fit: cover;
+}
+
+.shop4shopnow {
+    margin-top: 20px;
+}
+
+.footer1 {
+    background-color: #161b1b;
+    height: 180px;
+    padding: 20px 0px 20px 0px;
+    color: #cccccc;
+}
+
+.footer1gap {
+    padding: 40px 0px 40px 0px;
+    border: 2px solid #232F3E;
+    margin: 0px 10px 0px 10px;
+    border-radius: 5px;
+}
+
+.footer1-signin-button {
+    width: 200px;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    margin: 5px 0px 5px 0px;
+}
+
+.footer2 {
+    padding-top: 20px;
+    height: 50px;
+    background-color: #232F3E;
+    color: #cccccc;
+}
+
+.footer3 {
+    padding-top: 30px;
+    background-color: #19212c;
+    color: #cccccc;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link1 {
+    font-size: 14px;
+    text-decoration: none;
+    color: #cccccc;
+}
+
+.d {
+    padding: 30px 5px 0px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%vw;
+}
